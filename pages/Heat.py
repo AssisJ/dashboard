@@ -2,7 +2,6 @@ import streamlit as st
 import requests
 import pandas as pd
 import plotly.express as px
-import geopandas as gpd
 import numpy as np
 # Icono y configuracion basico del tablero digital
 #__________________________________________________________________________________________________________________________________________________
