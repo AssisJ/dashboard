@@ -119,7 +119,7 @@ request_data = [
     }
 ]
 
-url_api = "https://04mazc.deta.dev/predict"
+url_api = "https://apidiplo-bhgjakfgjq-uc.a.run.app/predict"
 data = str(request_data).replace("'", '"')
 pred= requests.post(url=url_api, data=data).text
 #st.write(pred)
